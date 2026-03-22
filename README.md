@@ -13,3 +13,11 @@ rstack <value> — Removes a value from the stack, similar to pop
 ret — Simply returns 0
 
 More updates will be coming over time.
+
+# Compiling
+
+make
+
+# Usage
+
+./sukha code.skh
