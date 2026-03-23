@@ -21,12 +21,7 @@ Token lex(char *line) {
 	}
 
 	if(strncmp(line, "rstack", 6) == 0) {
-		int stackvalue2;
-		if (sscanf(line + 6, " %d", &stackvalue2) != 1) {
-			fprintf(stderr, "ERROR: Invalid value in rstack\n");
-			exit(1);
-		}
-		return createtoken(TKN_RSTACK, stackvalue2);
+		return createtoken(TKN_RSTACK, 0);
 	}
 
 	fprintf(stderr, "ERROR: Unknown instructions.\n");
