@@ -9,7 +9,7 @@ code > tokenization > parsing > opcode execution
 We currently have 3 instructions:
 
 pustack <value> — Pushes a value onto the stack, similar to the push instruction in x86 assembly
-rstack <value> — Removes a value from the stack, similar to pop
+rstack — Remove the value from stack
 ret — Simply returns 0
 
 More updates will be coming over time.
